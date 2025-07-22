@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Little Potchi Children's Hospital</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff8fb;
+      color: #333;
+    }
+    header {
+      background-color: #ff6699;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+    nav {
+      background-color: #ffb3cc;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      color: #cc3366;
+    }
+    footer {
+      background-color: #ff6699;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .emoji {
+      font-size: 1.3em;
+    }
+    ul {
+      list-style-type: circle;
+      padding-left: 20px;
+    }
+    form {
+      background-color: #ffe6ef;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+    input[type="submit"] {
+      background-color: #ff6699;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    input[type="submit"]:hover {
+      background-color: #e05585;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Little Potchi Children’s Hospital</h1>
+    <p>Where Healing Begins with a Smile</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#care">Care Team</a>
+    <a href="#family">Family Support</a>
+    <a href="#services">Programs</a>
+    <a href="#mission">Mission</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2 class="emoji">🌈 A Hospital Like No Other</h2>
+    <p>
+      At Little Potchi Children’s Hospital, we believe that every child deserves not only the best medical care but also the warmth, comfort, and joy that makes healing a little easier.
+    </p>
+    <p>
+      Inspired by the playful and comforting essence of “Potchi” — a name that evokes sweetness, softness, and happiness — our hospital is built to feel less like a sterile institution and more like a second home.
+    </p>
+  </section>
+
+  <section id="care">
+    <h2 class="emoji">🏥 Expert Pediatric Care, Wrapped in Compassion</h2>
+    <ul>
+      <li>Pediatricians</li>
+      <li>Pediatric surgeons</li>
+      <li>Pediatric nurses and therapists</li>
+      <li>Child psychologists and counselors</li>
+      <li>Neonatal and intensive care specialists</li>
+    </ul>
+  </section>
+
+  <section id="family">
+    <h2 class="emoji">💖 Family-Centered Healing</h2>
+    <ul>
+      <li>Comfortable parent accommodations</li>
+      <li>Family lounges and quiet zones</li>
+      <li>24/7 visitation policies</li>
+      <li>Support groups and counseling services</li>
+    </ul>
+  </section>
+
+  <section id="services">
+    <h2 class="emoji">🎗️ Special Programs & Services</h2>
+    <ul>
+      <li><strong>Potchi Play Therapy Room</strong> – Emotional healing through play</li>
+      <li><strong>Creative Arts and Music Programs</strong> – Healing through creativity</li>
+      <li><strong>Pet Therapy Days</strong> – Comfort from therapy animals</li>
+      <li><strong>Health Education Workshops</strong> – Empowering families with knowledge</li>
+    </ul>
+  </section>
+
+  <section id="mission">
+    <h2 class="emoji">🌍 Our Mission</h2>
+    <p>
+      To deliver world-class pediatric healthcare in a loving, joyful, and safe environment that promotes holistic healing, innovation, and inclusivity.
+    </p>
+    <h2 class="emoji">🎉 Join the Little Potchi Family</h2>
+    <p>
+      Whether you’re a parent looking for trusted pediatric care, a donor seeking to support a meaningful cause, or a medical professional with a heart for healing — Little Potchi Children’s Hospital welcomes you.
+    </p>
+    <p><em>✨ Where every little smile matters, and every child’s story is worth celebrating.</em></p>
+  </section>
+
+  <section id="contact">
+    <h2 class="emoji">📬 Contact Us</h2>
+    <p><strong>Phone:</strong> 09995875653</p>
+    <p><strong>Location:</strong> Deparo, Caloocan</p>
+    <p><strong>Established:</strong> 2025</p>
+    <p><strong>CEO:</strong>  Marvin Edward R. Consolacion</p>
+
+    <form action="#" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <input type="submit" value="Send Message">
+    </form>
+  </section>
+
+  <footer>
+    &copy; Marvin Edward R. Consolacion BSN2-17. All rights reserved.
+  </footer>
+
+</body>
+</html>
